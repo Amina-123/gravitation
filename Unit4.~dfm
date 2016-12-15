@@ -1,0 +1,44 @@
+object Form4: TForm4
+  Left = 223
+  Top = 52
+  Width = 928
+  Height = 780
+  Caption = 'Form4'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Button1: TButton
+    Left = 768
+    Top = 416
+    Width = 289
+    Height = 81
+    Caption = #1042#1079#1103#1090#1100' '#1082#1085#1080#1075#1091
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -28
+    Font.Name = 'Verdana Pro Cond Black'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 296
+    Top = 424
+    Width = 289
+    Height = 81
+    Caption = #1052#1086#1080' '#1082#1085#1080#1075#1080
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -28
+    Font.Name = 'Verdana Pro Cond Black'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+  end
+end

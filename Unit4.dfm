@@ -1,9 +1,9 @@
-object Form3: TForm3
-  Left = 362
-  Top = 125
+object Form4: TForm4
+  Left = 203
+  Top = 306
   Width = 928
-  Height = 480
-  Caption = 'Form3'
+  Height = 780
+  Caption = 'Form4'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -16812,47 +16812,32 @@ object Form3: TForm3
       696968425A5A5A5A10969696968425A5A5A5A10969696968425A5A5A5A10BFFF
       D9}
   end
-  object Label1: TLabel
-    Left = 664
-    Top = 56
-    Width = 267
-    Height = 50
-    Caption = '#'#1041#1080#1073#1083#1080#1086#1090#1077#1082#1072
+  object Button1: TButton
+    Left = 984
+    Top = 416
+    Width = 289
+    Height = 81
+    Caption = 'Взять книгу'
     Font.Charset = DEFAULT_CHARSET
-    Font.Color = clHotLight
-    Font.Height = -41
-    Font.Name = 'Verdana Pro Cond Black'
-    Font.Style = []
-    ParentFont = False
-  end
-  object Edit1: TEdit
-    Left = 328
-    Top = 328
-    Width = 489
-    Height = 42
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clHighlight
+    Font.Color = clWindowText
     Font.Height = -28
     Font.Name = 'Verdana Pro Cond Black'
     Font.Style = []
     ParentFont = False
     TabOrder = 0
-    Text = #1042#1074#1077#1076#1080#1090#1077' '#1085#1086#1084#1077#1088' '#1096#1082#1086#1083#1100#1085#1086#1081' '#1082#1072#1088#1090#1099
-    OnClick = Edit1Click
   end
-  object Button1: TButton
-    Left = 840
-    Top = 452
-    Width = 177
-    Height = 65
-    Caption = #1042#1086#1081#1090#1080
+  object Button2: TButton
+    Left = 320
+    Top = 424
+    Width = 289
+    Height = 81
+    Caption = 'Мои книги'
     Font.Charset = DEFAULT_CHARSET
-    Font.Color = clHighlight
+    Font.Color = clWindowText
     Font.Height = -28
     Font.Name = 'Verdana Pro Cond Black'
     Font.Style = []
     ParentFont = False
     TabOrder = 1
-    OnClick = Button1Click
   end
 end

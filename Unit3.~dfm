@@ -1,6 +1,6 @@
 object Form3: TForm3
-  Left = 240
-  Top = 183
+  Left = 393
+  Top = 49
   Width = 928
   Height = 480
   Caption = 'Form3'
@@ -13,4 +13,46 @@ object Form3: TForm3
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
+  object Label1: TLabel
+    Left = 560
+    Top = 49
+    Width = 231
+    Height = 47
+    Caption = '#'#1041#1080#1073#1083#1080#1086#1090#1077#1082#1072
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clHotLight
+    Font.Height = -47
+    Font.Name = 'MingLiU-ExtB'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 224
+    Top = 312
+    Width = 489
+    Height = 42
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clHighlight
+    Font.Height = -28
+    Font.Name = 'Verdana Pro Cond Black'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    Text = #1042#1074#1077#1076#1080#1090#1077' '#1085#1086#1084#1077#1088' '#1096#1082#1086#1083#1100#1085#1086#1081' '#1082#1072#1088#1090#1099
+  end
+  object Button1: TButton
+    Left = 680
+    Top = 404
+    Width = 177
+    Height = 65
+    Caption = #1042#1086#1081#1090#1080
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clHighlight
+    Font.Height = -28
+    Font.Name = 'Verdana Pro Cond Black'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+    OnClick = Button1Click
+  end
 end

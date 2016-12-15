@@ -1,4 +1,4 @@
-unit Unit3;
+unit Unit4;
 
 interface
 
@@ -7,11 +7,10 @@ uses
   Dialogs, StdCtrls, jpeg, ExtCtrls;
 
 type
-  TForm3 = class(TForm)
-    Edit1: TEdit;
+  TForm4 = class(TForm)
     Button1: TButton;
-    Label1: TLabel;
-    procedure Button1Click(Sender: TObject);
+    Button2: TButton;
+    Image1: TImage;
   private
     { Private declarations }
   public
@@ -19,16 +18,10 @@ type
   end;
 
 var
-  Form3: TForm3;
+  Form4: TForm4;
 
 implementation
 
 {$R *.dfm}
 
-procedure TForm3.Button1Click(Sender: TObject);
-begin
-  From4.Show();
-end;
-
 end.
- 
